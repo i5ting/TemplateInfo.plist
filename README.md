@@ -8,7 +8,7 @@ TemplateInfo.plist file is used in xcode 4 template files.
 
 Add this line to your application's Gemfile:
 
-    gem 'TemplateInfo.plist'
+    gem 'TemplateInfo'
 
 And then execute:
 
@@ -16,7 +16,7 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install TemplateInfo.plist
+    $ gem install TemplateInfo 
 
 ## Usage
 

@@ -20,8 +20,23 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+切换到对应目录：
 
+    $ tif_create
+	
+默认创建TemplateInfo.plist
+
+	
+当然，tif_create也可以接收1个参数，生成的文件名称
+
+    $ tif_create my.plist
+	
+
+**Note**
+
+xcode 4的模板目录名是以**.xctemplate**结尾的。如base_ios.xctemplate，如果命名不规范不能执行。
+	
+	
 ## Contributing
 
 1. Fork it

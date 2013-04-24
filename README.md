@@ -44,3 +44,14 @@ xcode 4的模板目录名是以**.xctemplate**结尾的。如base_ios.xctemplate
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
 5. Create new Pull Request
+
+
+## History
+
+v0.0.4：2013-04-24
+
+- 修改了key和string生成问题
+
+	   <key>libs/BeeFramework/MVC/ViewController/Extension/UIViewController+UINavigationBar.m</string>
+		   
+

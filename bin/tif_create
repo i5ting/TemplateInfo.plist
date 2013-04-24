@@ -126,7 +126,14 @@ def format_templateInfo_xml_to_plist(name='TemplateInfo')
         s2 = line
         line = line.sub(/\n/,'').gsub(/\s/,'');
         #p "#{s1}#{line}</string>\n"
-        text.push "#{s1}#{line}</string>\n"
+        if /\s*<key>/ =~ s1
+          p '这个是key'
+            text.push "#{s1}#{line}</key>\n"
+        else
+          p '这是是string'
+            text.push "#{s1}#{line}</string>\n"
+        end
+        
       else
         text.push  "#{line}"
       end

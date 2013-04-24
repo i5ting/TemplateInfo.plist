@@ -1115,7 +1115,7 @@
                 <key>TargetIndices</key>
                 <array/>
             </dict>
-            <key>libs/BeeFramework/MVC/ViewController/Extension/UIViewController+UINavigationBar.h</string>
+            <key>libs/BeeFramework/MVC/ViewController/Extension/UIViewController+UINavigationBar.h</key>
             <dict>
                 <key>Group</key>
                 <array>
@@ -2177,7 +2177,7 @@
                 <key>Path</key>
                 <string>libs/BeeFramework/MVC/ViewController/Extension/UIViewController+BeeUISignal.m</string>
             </dict>
-            <key>libs/BeeFramework/MVC/ViewController/Extension/UIViewController+UINavigationBar.m</string>
+            <key>libs/BeeFramework/MVC/ViewController/Extension/UIViewController+UINavigationBar.m</key>
             <dict>
                 <key>Group</key>
                 <array>
